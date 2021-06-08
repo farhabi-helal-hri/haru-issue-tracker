@@ -1,0 +1,19 @@
+# Receptionist Issue Tracker
+
+
+| No. | Description                                                                                      | Severity | Reported by | Report Date | Latest Date Observed | Using Simulator | Fixed | Fixed by | Tested By | Test Date  | Status    |
+| --- | ------------------------------------------------------------------------------------------------ | -------- | ----------- | ----------- | -------------------- | --------------- | ----- | -------- | --------- | ---------- | --------- |
+| 1   | Projector screen does not work during News                                                       | CRITICAL | Farhabi     | 2021/06/03  | 2021/06/03           | o               | o     | Farhabi  | Farhabi   | 2021/06/07 | COMPLETED |
+| 2   | Projector screen does not work during Direction                                                  | CRITICAL | Farhabi     | 2021/06/03  | 2021/06/03           | o               | o     | Farhabi  | Farhabi   | 2021/06/07 | COMPLETED |
+| 3   | Mismatch in speech and screen info during Weather report                                         | CRITICAL | Farhabi     | 2021/06/03  | 2021/06/03           | o               | x     |          | Farhabi   |            | o         |
+| 4   | Tells the direction to Seville Airport                                                           | CRITICAL | Farhabi     | 2021/06/03  | 2021/06/03           | o               | x     |          | Farhabi   |            | o         |
+| 5   | Stuck in loop in the Drink Offer if saying No is not recognized                                  | LOW      | Farhabi     | 2021/06/03  | 2021/06/03           | o               | x     |          | Farhabi   |            | x         |
+| 6   | Stuck in loop after saying No to WiFi if saying No is not recognized                             | LOW      | Farhabi     | 2021/06/03  | 2021/06/03           | o               | x     |          | Farhabi   |            | x         |
+| 7   | After #5 occurs, News/Weather/Direction commands can be issued                                   | LOW      | Farhabi     | 2021/06/03  | 2021/06/03           | o               | x     |          | Farhabi   |            | x         |
+| 8   | After #6 occurs, News/Weather/Direction commands can be issued                                   | LOW      | Farhabi     | 2021/06/03  | 2021/06/03           | o               | x     |          | Farhabi   |            | x         |
+| 9   | When taking photo of a masked person, haru does not remember it and freaks out after photo stage | LOW      | Farhabi     | 2021/06/04  | 2021/06/04           | o               | x     |          | Farhabi   |            | x         |
+| 10  | Take photo stage fails 3 times to detect face although face detection works fine.                | LOW      | Farhabi     | 2021/06/04  | 2021/06/04           | o               | o     | Farhabi  | Farhabi   | 2021/06/07 | COMPLETED |
+| 11  | If "What are you doing?" is spoken, Haru wants to see QR code.                                   | LOW      | Farhabi     | 2021/06/04  | 2021/06/04           | o               | x     |          | Farhabi   |            | x         |
+| 12  | No mask detection afterwards.                                                                    | LOW      | Farhabi     | 2021/06/04  | 2021/06/04           | o               | x     |          | Farhabi   |            | x         |
+| 13  | ASR is not working for Cooperative Devices                                                       | HIGH     | Farhabi     | 2021/06/04  | 2021/06/04           | o               | x     |          | Farhabi   |            | x         |
+|     |                                                                                                  |          |             |             |                      |                 |       |          |           |            |           |
